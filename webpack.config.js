@@ -23,7 +23,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title : 'Momomania',
       template : './src/template.html',
     }),
   ],
