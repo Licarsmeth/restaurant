@@ -3,5 +3,6 @@ export default function contactUs() {
     const description = document.createElement('div');
   
   description.textContent = 'Contact info';
+  description.classList.add('description');
   content.appendChild(description);
   }

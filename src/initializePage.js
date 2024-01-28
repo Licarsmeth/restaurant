@@ -11,7 +11,7 @@ export default function initializePage() {
   headline.textContent = "Welcome to our restro";
   pic.setAttribute("src", momo);
   pic.classList.add("pic");
-  description.textContent = "yes yes";
+  description.textContent = "The best momo in town";
   description.classList.add("description");
 
   //append all to content
