@@ -3,7 +3,7 @@ export default function contactUs() {
     
       // Create and display contact information
   const contactInfo = document.createElement("div");
-  contactInfo.classList.add("contact-info");
+  contactInfo.classList.add('contact-info');
 
   // Add contact details
   const email = document.createElement("p");

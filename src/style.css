@@ -35,7 +35,7 @@ justify-content: flex-end;
     padding: 10px;
     border-radius: 10px;
     border-bottom: 1px solid #ddd;
-    gap: 10rem;
+    gap: 10em;
   }
   
   /* Styling for menu item text (e.g., momo type and price) */

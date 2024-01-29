@@ -1,5 +1,5 @@
 export default function menuClick() {
-  const content = document.getElementById("content");
+  const content = document.getElementById('content');
 
     // Create and display the food menu
     const menu = document.createElement("div");
