@@ -8,7 +8,7 @@ export default function initializePage() {
   const description = document.createElement("div");
 
   //add contents and classes
-  headline.textContent = "Welcome to our restro";
+  headline.textContent = "Welcome to Momomania!";
   pic.setAttribute("src", momo);
   pic.classList.add("pic");
   description.textContent = "The best momo in town";
