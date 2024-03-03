@@ -1,9 +1,9 @@
 export default function contactUs() {
-    const content = document.getElementById("content");
-    
-      // Create and display contact information
+  const content = document.getElementById("content");
+
+  // Create and display contact information
   const contactInfo = document.createElement("div");
-  contactInfo.classList.add('contact-info');
+  contactInfo.classList.add("contact-info");
 
   // Add contact details
   const email = document.createElement("p");
@@ -19,4 +19,3 @@ export default function contactUs() {
   // Append the contact information to the content
   content.appendChild(contactInfo);
 }
-  

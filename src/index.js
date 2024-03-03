@@ -3,10 +3,10 @@ import init from "./initializePage";
 import menuClick from "./menuClick";
 import contactUs from "./contactUs";
 
-const content = document.querySelector('#content');
+const content = document.querySelector("#content");
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
-const contact = document.querySelector('#contact');
+const contact = document.querySelector("#contact");
 
 document.addEventListener("DOMContentLoaded", () => {
   init();
@@ -23,6 +23,6 @@ menu.addEventListener("click", () => {
 });
 
 contact.addEventListener("click", () => {
-    content.textContent = "";
-    contactUs();
-  });
+  content.textContent = "";
+  contactUs();
+});
